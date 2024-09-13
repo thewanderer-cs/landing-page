@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,
+.first-section,
+footer{
+    background-color: #1F2937;
+}
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.hero-container h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero-container p,
+.links{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.signup-btn,
+.c2a-btn{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+.c2a-btn{
+    border: #F9FAF8 1px solid;
+    border-radius: 2px;
+}
+.c2a-container{
+    background-color: #3882F6;
+}
+.second-section h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.third-section{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+}
