@@ -44,3 +44,25 @@ footer{
     color: #1F2937;
     font-size: 36px;
 }
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 20em;
+}
+li{
+    list-style: none;
+}
+ul{ 
+    display: flex;
+    gap: 24px;
+}
+.first-section{
+     padding: 2em 20em;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.image-placeholder img{
+    width: 500px;
+}
