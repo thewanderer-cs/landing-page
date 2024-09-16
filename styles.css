@@ -8,21 +8,30 @@ header,
 .first-section,
 footer{
     background-color: #1F2937;
+    padding: 0em 12em;
 }
 .logo{
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 800;
 }
+.hero-container{
+    width: 450px;
+}
 .hero-container h1{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    line-height: 1em;
 }
 .hero-container p,
 .links{
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 1em;
+}
+.signup-btn{
+    margin-top: 1em;
 }
 .signup-btn,
 .c2a-btn{
@@ -73,8 +82,19 @@ ul{
     display: flex;
     gap: 24px;
 }
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+.links a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.logo a:hover{
+    cursor: pointer;
+}
 .first-section{
-     padding: 2em 20em;
+    padding: 2em 32em;
      display: flex;
      align-items: center;
      justify-content: space-between;
@@ -83,7 +103,7 @@ ul{
     width: 500px;
 }
 .c2a{
-    padding: 4em 20em;
+    padding: 4em 32em;
 }
 .c2a-container{
     padding: 3em 10em;
